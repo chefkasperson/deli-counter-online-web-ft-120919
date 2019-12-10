@@ -9,3 +9,10 @@ def line(array)
     puts "The line is currently:" + y
   end
 end
+
+def take_a_number(array, name)
+  new_array = array << name
+  number = new_array.length
+  puts "Welcome, #{name}. You are number #{number} in line."
+  new_array
+end
