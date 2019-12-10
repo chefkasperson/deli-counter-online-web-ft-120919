@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     x = array.map.with_index(1)
-
+    x = x.join(" ")
     puts "The line is currently:" + x
     binding.pry
   end
