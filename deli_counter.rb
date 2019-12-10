@@ -11,8 +11,8 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  new_array = array << name
-  number = new_array.length
+  array = array << name
+  number = array.length
   puts "Welcome, #{name}. You are number #{number} in line."
-  new_array
+  array
 end
